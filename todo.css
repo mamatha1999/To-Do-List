@@ -1,0 +1,45 @@
+body {    
+
+    font-family: 'Lato', sans-serif;  
+
+  background: -webkit-linear-gradient(90deg, #e4b92b 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #d1e42b 10%, #EAECC6 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #e49a2b 10%, #EAECC6 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #e4472b 10%, #EAECC6 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #e42b63 10%, #EAECC6 90%); /* W3C */
+}
+
+
+header{
+    font-family: 'Dancing Script', cursive;
+}
+
+#forScrolling{
+    /* float: left; */
+    /* width: 1000px; */
+    overflow-y:scroll;
+    height: 25rem;
+}
+
+.strike{
+    text-decoration: line-through;
+    opacity: 0.75;
+}
+
+#todoList{
+
+    color: rgb(17, 17, 17);
+}
+
+#message{
+    color: rgb(202, 38, 38);
+    font-weight: bold;
+}
+
+header{
+    opacity: 0.86;
+}
+
+footer{
+    opacity: 0.86;
+}
